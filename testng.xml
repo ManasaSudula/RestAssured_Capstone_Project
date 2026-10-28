@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GoRest API Automation Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.perficient.capstone.listeners.ExtentTestListener"/>
+    </listeners>
+    <test name="User API Tests">
+        <classes>
+            <class name="com.perficient.capstone.tests.UserApiTests"/>
+        </classes>
+    </test>
+    <test name="Post API Tests">
+        <classes>
+            <class name="com.perficient.capstone.tests.PostApiTests"/>
+        </classes>
+    </test>
+</suite>
